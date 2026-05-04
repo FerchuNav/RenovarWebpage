@@ -28,7 +28,6 @@ const App = () => {
           </a>
           <div className="nav-links">
             <a href="#colores">Color</a>
-            <a href="#productos">Productos</a>
             <a href="#deco">Renovar Deco</a>
             <a href="#resenas">Reseñas</a>
             <a href="#local">Local</a>
@@ -134,22 +133,11 @@ const App = () => {
           </div>
         </section>
 
-        <section className="band reveal" id="productos">
-          <div className="section-eyebrow"><span className="num">03</span> ALGUNAS OFERTAS</div>
-          <h2 className="section-title">Productos <span className="it">en oferta</span> esta semana.</h2>
-          <div className="product-grid">
-            {PRODUCTS.map((p, i) => <Product key={i} p={p} />)}
-          </div>
-          <p style={{ marginTop: 32, fontSize: 13, color: 'var(--ink-soft)', fontFamily: 'DM Mono, monospace' }}>
-            // Precios de referencia — consultá disponibilidad y stock por WhatsApp.
-          </p>
-        </section>
-
         <section className="band dark reveal" id="resenas">
           <div className="band-inner">
             <div className="reviews-head">
               <div>
-                <div className="section-eyebrow"><span className="num">04</span> LO QUE DICEN LOS VECINOS</div>
+                <div className="section-eyebrow"><span className="num">03</span> LO QUE DICEN LOS VECINOS</div>
                 <h2 className="section-title">Reseñas <span className="it">verificadas</span><br/>de Google.</h2>
               </div>
               <div className="gscore">
@@ -245,7 +233,7 @@ const App = () => {
         </section>
 
         <section className="band reveal" id="local">
-          <div className="section-eyebrow"><span className="num">06</span> VENÍ AL LOCAL</div>
+          <div className="section-eyebrow"><span className="num">05</span> VENÍ AL LOCAL</div>
           <h2 className="section-title">Mitre y <span className="it">11 de Abril</span>.<br/>La esquina de siempre.</h2>
           <div className="store-grid">
             <div className="store-info">
@@ -306,7 +294,6 @@ const App = () => {
           <div>
             <h4>Navegación</h4>
             <a href="#colores">Mezclá tu color</a>
-            <a href="#productos">Productos</a>
             <a href="#deco">Renovar Deco</a>
             <a href="#resenas">Reseñas</a>
             <a href="#local">El local</a>

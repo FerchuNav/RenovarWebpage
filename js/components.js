@@ -95,24 +95,6 @@ const Mixer = () => {
   );
 };
 
-const Product = ({ p }) => (
-  <article className="product">
-    <div className="product-art">
-      {p.badge && <span className="badge">{p.badge}</span>}
-      {p.art}
-    </div>
-    <div className="product-body">
-      <div className="product-cat">{p.cat}</div>
-      <h3 className="product-name">{p.name}</h3>
-      <p className="product-desc">{p.desc}</p>
-      <div className="product-foot">
-        <div className="product-price"><small>$</small>{p.price}</div>
-        <div className="product-unit">{p.unit}</div>
-      </div>
-    </div>
-  </article>
-);
-
 const Review = ({ r }) => (
   <article className="review">
     <span className="quote-mark" aria-hidden="true">"</span>
