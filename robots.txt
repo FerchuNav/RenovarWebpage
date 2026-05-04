@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pintureriarenovar.com.ar/sitemap.xml
